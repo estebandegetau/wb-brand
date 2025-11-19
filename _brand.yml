@@ -1,0 +1,51 @@
+# _brand.yml
+meta:
+  name: World Bank – Project Reports & Dashboards
+  link: https://www.worldbank.org
+
+logo:
+  small:  assets/logo-wb-small.png
+  medium: assets/logo-wb-medium.png
+  large:  assets/logo-wb-large.png
+
+color:
+  palette:
+    wb-blue:   "#0067B1"  # example World Bank blue
+    wb-yellow: "#FFCC00"  # example accent
+    grey-dark: "#333333"
+    grey-light: "#F5F5F5"
+  background: wb-blue
+  foreground: grey-light
+  primary:    wb-yellow
+  secondary:  grey-dark
+  link:       wb-yellow
+
+typography:
+  fonts:
+    - family: “Inter”
+      source: google
+    - family: “Source Code Pro”
+      source: google
+  base:        Inter
+  headings:
+    family: Inter
+    weight: 600
+    color: grey-dark
+  monospace:   Source Code Pro
+  monospace-inline:
+    family: Source Code Pro
+    color: grey-dark
+    background-color: grey-light
+  monospace-block:
+    family: Source Code Pro
+    background-color: grey-light
+
+defaults:
+  bootstrap:
+    defaults:
+      navbar-bg:        wb-blue
+      navbar-fg:        grey-light
+      link-decoration:  none
+      button-primary-bg: wb-yellow
+      button-primary-fg: grey-dark
+
