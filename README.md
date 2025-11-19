@@ -7,7 +7,7 @@ World Bank Brand Extension for Quarto.
 
 
 ```bash
-quarto add estebandegetau/wb-brand
+quarto add https://github.com/estebandegetau/wb-brand
 ```
 
 This will install the extension under the `_extensions` subdirectory.
