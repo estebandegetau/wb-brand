@@ -1,9 +1,50 @@
-# minimal brand.yml enabling dark mode
-# replace with your brand colors, logos, and typography!
+# _brand.yml
+meta:
+  name: World Bank Style – Project Reports & Dashboards
+  link: https://www.worldbank.org
+
+# logo:
+#   small:  assets/logo-wb-small.png
+#   medium: assets/logo-wb-medium.png
+#   large:  assets/logo-wb-large.png
+
 color:
-  background:
-    light: "#fff"
-    dark: "#000"
-  foreground:
-    light: "#000"
-    dark: "#fff"
+  palette:
+    wb-blue-dark:   "#002244"
+    wb-blue-light:  "#009FDA"
+    grey-dark:      "#4A4A4A"
+    grey-light:     "#E5E5E5"
+  background:      white
+  foreground:      grey-dark
+  primary:         wb-blue-light
+  secondary:       wb-blue-dark
+  link:            wb-blue-light
+
+typography:
+  fonts:
+    - family: "Inter"
+      source: google
+    - family: "Source Code Pro"
+      source: google
+  base:        Inter
+  headings:
+    family:   Inter
+    weight:   600
+    color:    grey-dark
+  monospace:   Source Code Pro
+  monospace-inline:
+    family:            Source Code Pro
+    color:             grey-dark
+    background-color:  grey-light
+  monospace-block:
+    family:            Source Code Pro
+    background-color:  grey-light
+
+# defaults:
+#   bootstrap:
+#     defaults:
+#       navbar-bg:        white
+#       navbar-fg:        wb-blue-dark
+#       link-decoration:  none
+#       button-primary-bg: wb-blue-light
+#       button-primary-fg: grey-dark
